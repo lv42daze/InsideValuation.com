@@ -1,0 +1,92 @@
+﻿<!--
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>@ViewBag.Message</h2>
+<p>
+    To learn more about ASP.NET MVC visit <a href="http://asp.net/mvc" title="ASP.NET MVC Website">http://asp.net/mvc</a>.
+</p>
+
+<ul data-role="listview" data-inset="true">
+    <li data-role="list-divider">Navigation</li>
+    <li>@Html.ActionLink("About", "About", "Home")</li>
+    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+</ul>
+-->
+
+<div class="row">
+    <div class="large-12 columns">
+        <a id="logoLink" href="/"><img src="~/images/insidevaluationlogofinal_web.png"/></a>
+        <div class="headerContact">
+            <a href="/contact">Contact</a><br/>775-828-4044
+        </div>
+    </div>
+</div>
+
+<div class="row" id="topMenu">
+    <nav class="top-bar" data-topbar>
+        <section class="top-bar-section"> 
+            <ul class="left">
+                <li class="active"><a href="/">Home</a></li>
+                <li class="has-dropdown"><a href="/about-us.aspx">About Us</a>
+                    <ul class="dropdown">
+                        <li><a href="/about-us/client-support.aspx">Client Support</a></li>
+                        <li><a href="/about-us/technical-support.aspx">Technical Support</a></li>
+                        <li><a href="/about-us/field-agent-support.aspx">Field Agent Support</a></li>
+                        <li><a href="/about-us/our-team.aspx">Our Team</a></li>
+                        <li><a href="/about-us/join-our-team.aspx">Join Our Team</a></li>
+                        <li><a href="/about-us/insidevaluation®-gives-back.aspx">InsideValuation® Gives Back</a></li>
+                    </ul>
+                </li>
+                <li class="has-dropdown"><a href="/commercial-valuation.aspx">Commercial Valuation</a>
+                    <ul class="dropdown">
+                        <li><a href="/commercial-valuation/commercial-evaluation.aspx">Commercial Evaluation</a></li>
+                        <li><a href="/commercial-valuation/property-condition-report.aspx">Property Condition Report</a></li>
+                        <li><a href="/commercial-valuation/sales-comparison-evaluation.aspx">Sales Comparison Evaluation</a></li>
+                        <li><a href="/commercial-valuation/replacement-cost-value-report.aspx">Replacement Cost Value Report</a></li>
+                    </ul>
+                </li>
+                <li class="has-dropdown"><a href="/residential-valuation.aspx">Residential Valuation</a>
+                    <ul class="dropdown">
+                        <li><a href="/residential-valuation/residential-evaluation.aspx">Residential Evaluation</a></li>
+                        <li><a href="/residential-valuation/property-condition-report.aspx">Property Condition Report</a></li>
+                        <li><a href="/residential-valuation/automated-valuation-models-(avm).aspx">Automated Valuation Models (AVM)</a></li>
+                        <li><a href="/residential-valuation/replacement-cost-value-report.aspx">Replacement Cost Value Report</a></li>
+                    </ul>
+                </li>
+                <li class="has-dropdown"><a href="/news-room.aspx">News Room</a>
+                    <ul class="dropdown">
+                        <li><a href="/news-room/news.aspx">News</a></li>
+                        <li><a href="/news-room/in-the-news.aspx">In The News</a></li>
+                        <li><a href="/news-room/media.aspx">Media</a></li>
+                    </ul>
+                </li>
+                <li class="active"><a href="/contact.aspx">Contact</a></li>
+                <li class="has-dropdown"><a href="/login.aspx">Login</a>
+                    <ul class="dropdown">
+                        <li><a href="/login/field-agent-login.aspx">Field Agent Login</a></li>
+                        <li><a href="/login/client-login.aspx">Client Login</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </section> 
+    </nav>
+</div>
+<div class="row">
+	<div class="large-4 columns">
+		<div class="panel">
+			<p>Recent News</p>
+		</div>
+	</div>
+	<div class="large-4 columns">
+		<div class="panel">
+			<p>Products</p>
+		</div>
+	</div>
+	<div class="large-4 columns">
+		<div class="panel">
+			<p>Company Information</p>
+		</div>
+	</div>
+</div>
